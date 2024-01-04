@@ -232,4 +232,3 @@ class MultiResUnet(torch.nn.Module):
 		out =  self.conv_final(x_multires9)
 		
 		return out
-
