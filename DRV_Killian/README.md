@@ -1,4 +1,5 @@
 # DRV Killian - Projet INFO0702
+date: 05/01/2024
 
 ## Données médicales
 - site du [ISIC-2017_Data](https://challenge.isic-archive.com/data/#2017)
