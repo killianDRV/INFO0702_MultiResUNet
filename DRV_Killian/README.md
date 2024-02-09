@@ -40,7 +40,6 @@ ISIC-2017_Data/
         ├── ISIC_0000002.png
         ...
 ```
-<br>
 
 ## Données des plantes
 - [leaf image](https://drive.google.com/drive/folders/1_0cnT6K9tim96dHPeWNjjPAZbgzqIFuD)
@@ -103,4 +102,30 @@ plantDoc_leaf_disease/
             ├── 00010.png
             ├── 00022.png
             ...
+```
+## Test du programme
+- **Demo.ipynb** permet de tester avec les données des plantes
+- **Demo_original_data.ipynb** permet de tester avec les données d'origine (données médicales)
+
+## Résultat
+Les prédictions sont stockées dans le dossier `results`
+```
+plantDoc_leaf_disease/
+├── aug_data/  # Prédiction sur la base de plante augmentée
+│   ├── 0.png
+│   ├── 1.png
+│   ├── 2.png
+│   ...
+│
+├── data/  # Prédiction sur la base de plante
+│   ├── 0.png
+│   ├── 1.png
+│   ├── 2.png
+│   ...
+│
+└── original_data/  # Prédiction sur la base d'origine
+    ├── 0.png
+    ├── 1.png
+    ├── 2.png
+    ...
 ```
